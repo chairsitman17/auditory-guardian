@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_KEY = 'sk-proj-CEBmVAcnf1mhwuT4dh0JT3BlbkFJLitJigw1eyorcnGrhgft';
+const API_KEY = 'your-openai-key-here';
 
 export const sendMessageToChatGPT = async (message: string) => {
     const response = await axios.post(
